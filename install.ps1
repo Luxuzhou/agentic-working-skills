@@ -30,7 +30,7 @@ if (!(Test-Path $CommandsDir)) {
 # 安装所有 skills
 Write-Host "[3/4] 安装 skills..." -ForegroundColor Yellow
 $installed = 0
-Get-ChildItem "$TempDir\agentic-working-skills-master" -Directory | ForEach-Object {
+Get-ChildItem "$TempDir" -Directory | ForEach-Object {
     $skillDir = $_.FullName
     $skillName = $_.Name
 
