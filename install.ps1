@@ -1,8 +1,8 @@
-﻿
-# Agentic Working Skills - 一键安装脚本 (Windows PowerShell)
-# 用法: irm https://raw.githubusercontent.com/Luxuzhou/agentic-working-skills/master/install.ps1 | iex
+# Agentic Working Skills - Installer (Windows PowerShell)
+# Usage: irm https://raw.githubusercontent.com/Luxuzhou/agentic-working-skills/master/install.ps1 | iex
 
 $ErrorActionPreference = "Stop"
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $RepoUrl = "https://github.com/Luxuzhou/agentic-working-skills/archive/refs/heads/master.zip"
 $TempZip = "$env:TEMP\agentic-working-skills.zip"
 $TempDir = "$env:TEMP\agentic-working-skills-master"
