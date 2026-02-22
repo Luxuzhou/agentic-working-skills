@@ -1,4 +1,4 @@
-
+﻿
 # Agentic Working Skills - 一键安装脚本 (Windows PowerShell)
 # 用法: irm https://raw.githubusercontent.com/Luxuzhou/agentic-working-skills/master/install.ps1 | iex
 
